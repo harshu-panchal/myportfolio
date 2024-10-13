@@ -1,0 +1,48 @@
+
+.footer-container{
+    display: grid;
+}
+
+.footer-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    /* padding-left: 1px; */
+}
+
+.detail{
+    display: grid;
+}
+
+.footer-line{
+    width: 92%;
+    height: 0.1px;
+    background-color: rgb(179, 178, 178);
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+.info{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.socials{
+    width: 20px;
+    height: 20px;
+}
+
+.instagram{
+    width: 17px;
+    height: 17px;
+}
+
+.creator-name{
+    width: 100%;
+    text-align: center;
+}

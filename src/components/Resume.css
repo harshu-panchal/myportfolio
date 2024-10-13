@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/Fonts/Roboto/Roboto-Light.ttf') format('woff2');
+  }
+
+  
+.resume-container{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+}
+
+
+.resume-heading .word{
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.download-btn{
+    display: block;
+    width: 200px;
+    height: 38px;
+    border: 2px solid rgb(160, 167, 160);
+    border-radius: 500px;
+    text-align: center;
+    color: black;
+    background-color: greenyellow;
+    padding-top: 20px;
+    font-family: 'Roboto';
+}
+.resume-heading{
+    display: flex;
+    gap: 65%;
+}
+
+.download-btn:hover{
+    background-color: rgb(185, 250, 174);
+    font-weight: bolder;
+}

@@ -1,0 +1,13 @@
+.skills-cont {
+    display: flex;
+    gap: 48%;
+    margin-top: 7%;
+}
+
+.skill-content{
+    display: grid;
+}
+
+.skill{
+    display: flex;
+}

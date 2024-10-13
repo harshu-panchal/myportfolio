@@ -1,0 +1,47 @@
+.projects-container{
+    display: flex;
+    margin-top: 6%;
+    gap: 10%;
+    padding-bottom: 60px;
+}
+
+.project-contant{
+    width: 40%;
+}
+
+.legalAI{
+    width: 575px;
+    height: 320px;
+}
+
+.pic-flip-img{
+    width: 300px;
+    height: 320px;
+    
+}
+
+.project-photo3{
+    margin-left: -4%;
+}
+
+.github-btn{
+    display: block;
+    width: 200px;
+    height: 38px;
+    border: 2px solid rgb(160, 167, 160);
+    border-radius: 500px;
+    text-align: center;
+    background-color: #0d1117;
+    color: azure;
+    padding-top: 20px;
+    font-family: 'Roboto';
+}
+
+.github-btn:hover{
+    background-color: #2b3544;
+    font-weight: bolder;
+}
+
+.project-desc{
+    margin-top: 20px;
+}

@@ -1,0 +1,80 @@
+.Home-container{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 16%;
+    margin-top: 7%;
+}
+
+.content{
+    display: grid;
+    margin-top: 4%;
+}
+
+.my-image{
+    width: 475px;
+    height: 475px;
+}
+
+.logo-and-content{
+    display: flex;
+    gap: 4%;
+}
+
+.heading{
+    font-family: 'Action Display';
+    font-size: 65px;
+}
+
+.sub-heading{
+    font-family: 'Segoe UI';
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+.bio{
+    font-family: 'Montserrat Thin','Candara light';
+    font-size: 14px;
+    line-height: 25px;
+    word-spacing: 3px;
+}
+
+.low-line-height{
+    margin-top: 1px;
+    line-height: 45px;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 30px;
+    gap: 5%;
+}
+
+.buttonn{
+    border: 2px solid rgb(0, 248, 0);
+    border-radius: 50%;
+    display: grid;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.buttonn:hover{
+    background-color: white;
+}
+
+.color-yellow{
+    background-color: rgb(223, 243, 77);
+}
+
+.color-orange{
+    background-color: rgb(255, 111, 0);
+}
+
+.color-pink{
+    background-color: pink;
+}

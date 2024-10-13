@@ -1,0 +1,53 @@
+input{
+    width: 225px;
+    height: 35px;
+    background-color: rgb(231, 255, 255);
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px ;
+}
+
+input:focus{
+    outline: none;
+}
+
+.placehldr{
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.row1{
+    display: flex;
+    gap: 5%;
+}
+
+.big-box{
+    width: 480px;
+    height: 100px;
+    background-color: rgb(231, 255, 255);
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.big-box:focus{
+    outline: none;
+}
+
+.submit-btn{
+    width: 488px;
+    height: 50px;
+    margin-top: 7%;
+    border-radius: 500px;
+    background-color: rgb(249, 171, 61);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: azure;
+}
+
+.submit-btn.submit-btn:active{
+    color: #000;
+}

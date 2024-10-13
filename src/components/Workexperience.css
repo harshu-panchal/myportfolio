@@ -1,0 +1,38 @@
+
+.experience-cont{
+    display: flex;
+    gap: 30%;
+    margin-top: 7%;
+}
+
+.experience-content{
+    display: flex;
+}
+
+.year{
+    width: 170px;
+}
+
+.exp-cont-heading{
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.contant{
+    width: 500px;
+    display: grid;
+    margin-bottom: 25px;
+}
+
+.exp-info{
+    margin-top: 7px;
+}
+
+.btwn-line{
+    width: 130%;
+    height: 0.1px;
+    background-color: rgb(179, 178, 178);
+    margin-left: -15%;
+    margin-top: 5%;
+}
