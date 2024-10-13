@@ -7,7 +7,7 @@
   }
 
 @font-face {
-    font-family: 'Montserrat Thin';
+    font-family: 'Montserrat';
     src: url('./assets/Fonts/Montserrat/Montserrat-Regular.ttf') format('ttf'),
     url('./assets/Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
   }
@@ -85,7 +85,7 @@ li span{
 
 .Montserrat{
     color: #000;
-    font-family: 'Montserrat Thin';
+    font-family: 'Montserrat';
 }
 
 .logo{
