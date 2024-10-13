@@ -21,7 +21,7 @@
     }
 
     .logo-text {
-        font-size: 35px;
+        font-size: 15px;
     }
 
     .logo {
@@ -32,8 +32,8 @@
 
     .logo-image {
         padding-top: 20px;
-        width: 55px;
-        height: 55px;
+        width: 25px;
+        height: 25px;
     }
 
     .logo-and-content {
@@ -50,25 +50,25 @@
     }
 
     .my-image {
-        width: 1100px;
-        height: 1100px;
+        width: 700px;
+        height: 700px;
     }
 
     .heading {
-        font-size: 150px;
+        font-size: 100px;
         text-align: center;
         padding-bottom: 6%;
     }
 
     .sub-heading {
-        font-size: 85px;
+        font-size: 55px;
         text-align: center;
         line-height: 90px;
         padding-bottom: 4%;
     }
 
     .bio {
-        font-size: 70px;
+        font-size: 40px;
         text-align: center;
         line-height: 77px;
     }
@@ -80,8 +80,8 @@
     }
 
     .buttonn {
-        width: 340px;
-        height: 340px;
+        width: 200px;
+        height: 200px;
     }
 
     .footer-data {
@@ -414,13 +414,13 @@
     }
 
     .socials {
-        width: 100px;
-        height: 100px;
+        width: 20px;
+        height: 20px;
     }
 
     .instagram {
-        width: 80px;
-        height: 80px;
+        width: 10px;
+        height: 10px;
     }
 
     .creator-name {
@@ -437,7 +437,6 @@
     .Home-container {
         padding-left: 50%;
         text-align: center;
-
     }
     .creator-name{
         display: none;
