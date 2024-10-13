@@ -18,8 +18,8 @@ const Navbar = () => {
 
       <div className="navbar">
         <div className="logo">
-          <NavLink to="/"><li className='list-element'><img className='logo-image' src={snow} alt="logo" /></li></NavLink>
-          <NavLink to="/"><span className='logo-text' >Harshvardhan Panchal</span></NavLink>
+          <NavLink to="/myportfolio/"><li className='list-element'><img className='logo-image' src={snow} alt="logo" /></li></NavLink>
+          <NavLink to="/myportfolio/"><span className='logo-text' >Harshvardhan Panchal</span></NavLink>
           <span className='engineer Montserrat'>Engineer</span>
         </div>
 
@@ -31,21 +31,21 @@ const Navbar = () => {
             <span class="line line3"></span>
           </div>
           <div class="menu-items">
-            <NavLink to="/portfolio/" onClick={uncheck}><li className='-element'><span className="active-link material-symbols-outlined">home</span></li></NavLink>
-            <NavLink to="/portfolio/Resume" onClick={uncheck}><li className=' list-element'><span className="active-link Montserrat hover-me">Resume</span></li></NavLink>
-            <NavLink to="/portfolio/Projects" onClick={uncheck}><li className='list-element'><span className='active-link Montserrat hover-me'>Projects</span></li></NavLink>
-            <NavLink to="/portfolio/Contact" onClick={uncheck}><li className='list-element'><span className='active-link Montserrat hover-me'>Contact</span></li></NavLink>
+            <NavLink to="/myportfolio/" onClick={uncheck}><li className='-element'><span className="active-link material-symbols-outlined">home</span></li></NavLink>
+            <NavLink to="/myportfolio/Resume" onClick={uncheck}><li className=' list-element'><span className="active-link Montserrat hover-me">Resume</span></li></NavLink>
+            <NavLink to="/myportfolio/Projects" onClick={uncheck}><li className='list-element'><span className='active-link Montserrat hover-me'>Projects</span></li></NavLink>
+            <NavLink to="/myportfolio/Contact" onClick={uncheck}><li className='list-element'><span className='active-link Montserrat hover-me'>Contact</span></li></NavLink>
           </div>
         </div>
 
         <div className="links">
-          <NavLink to="/portfolio/" ><li className='-element'><span className="active-link material-symbols-outlined">home</span></li></NavLink>
+          <NavLink to="/myportfolio/" ><li className='-element'><span className="active-link material-symbols-outlined">home</span></li></NavLink>
           <li><span>|</span></li >
-          <NavLink to="/portfolio/Resume"><li className=' list-element'><span className="active-link Montserrat hover-me">Resume</span></li></NavLink>
+          <NavLink to="/myportfolio/Resume"><li className=' list-element'><span className="active-link Montserrat hover-me">Resume</span></li></NavLink>
           <li><span>|</span></li >
-          <NavLink to="/portfolio/Projects"><li className='list-element'><span className='active-link Montserrat hover-me'>Projects</span></li></NavLink>
+          <NavLink to="/myportfolio/Projects"><li className='list-element'><span className='active-link Montserrat hover-me'>Projects</span></li></NavLink>
           <li><span>|</span></li >
-          <NavLink to="/portfolio/Contact"><li className='list-element'><span className='active-link Montserrat hover-me'>Contact</span></li></NavLink>
+          <NavLink to="/myportfolio/Contact"><li className='list-element'><span className='active-link Montserrat hover-me'>Contact</span></li></NavLink>
         </div>
       </div>
     </>

@@ -25,9 +25,9 @@ const Home = () => {
             </div>
             <div className="btn-container">
             <div className="buttons">
-              <NavLink to="/portfolio/Resume"><li className='buttonn color-yellow'><span className='sub-heading'>Resume</span></li></NavLink>
-              <NavLink to="/portfolio/Projects"><li className='buttonn color-orange'><span className='sub-heading'>Projects</span></li></NavLink>
-              <NavLink to="/portfolio/Contact"><li className='buttonn color-pink'><span className='sub-heading'>Contact</span></li></NavLink>
+              <NavLink to="/myportfolio/Resume"><li className='buttonn color-yellow'><span className='sub-heading'>Resume</span></li></NavLink>
+              <NavLink to="/myportfolio/Projects"><li className='buttonn color-orange'><span className='sub-heading'>Projects</span></li></NavLink>
+              <NavLink to="/myportfolio/Contact"><li className='buttonn color-pink'><span className='sub-heading'>Contact</span></li></NavLink>
             </div>
             </div>
           </div>

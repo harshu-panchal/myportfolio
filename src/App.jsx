@@ -12,21 +12,21 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/portfolio/",
+      path: "/myportfolio/",
       element: <><Navbar />
         <Home />
         <Footerr /></>
     },
     {
-      path: "/portfolio/Resume",
+      path: "/myportfolio/Resume",
       element: <><Navbar /><Resume /><Footerr /></>
     },
     {
-      path: "/portfolio/Projects",
+      path: "/myportfolio/Projects",
       element: <><Navbar /><Projects /><Footerr /></>
     },
     {
-      path: "/portfolio/Contact",
+      path: "/myportfolio/Contact",
       element: <><Navbar /><Contact /><Footerr /></>
     }
   ]);
