@@ -32,8 +32,8 @@
 
     .logo-image {
         padding-top: 20px;
-        width: 25px;
-        height: 25px;
+        width: 35px;
+        height: 35px;
     }
 
     .logo-and-content {
@@ -50,25 +50,25 @@
     }
 
     .my-image {
-        width: 700px;
-        height: 700px;
+        width: 300px;
+        height: 300px;
     }
 
     .heading {
-        font-size: 100px;
+        font-size: 80px;
         text-align: center;
         padding-bottom: 6%;
     }
 
     .sub-heading {
-        font-size: 55px;
+        font-size: 35px;
         text-align: center;
         line-height: 90px;
         padding-bottom: 4%;
     }
 
     .bio {
-        font-size: 40px;
+        font-size: 20px;
         text-align: center;
         line-height: 77px;
     }
@@ -80,8 +80,8 @@
     }
 
     .buttonn {
-        width: 200px;
-        height: 200px;
+        width: 70px;
+        height: 70px;
     }
 
     .footer-data {
@@ -414,13 +414,13 @@
     }
 
     .socials {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
 
     .instagram {
-        width: 10px;
-        height: 10px;
+        width: 20px;
+        height: 20px;
     }
 
     .creator-name {
