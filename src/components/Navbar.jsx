@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
 
         <div className="links">
-          <NavLink to="/myportfolio/" ><li className='-element'><span className="active-link material-symbols-outlined">home</span></li></NavLink>
+          <NavLink to="/myportfolio/" ><li className='list-element'><span className="active-link material-symbols-outlined">home</span></li></NavLink>
           <li><span>|</span></li >
           <NavLink to="/myportfolio/Resume"><li className=' list-element'><span className="active-link Montserrat hover-me">Resume</span></li></NavLink>
           <li><span>|</span></li >
