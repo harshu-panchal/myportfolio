@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'Montserrat Thin';
     src: url('./assets/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('ttf'),
-    url('./assets/Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('woff2');
+    url('./assets/Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
   }
 
 
