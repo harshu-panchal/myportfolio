@@ -1,105 +1,109 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @font-face {
-    font-family: 'Action Display';
-    src: url('./assets/Fonts/f24q3238-action-display/otf/f24q3238-action-display-action-display-regular-400.otf') format('otf'),
-         url('./assets/Fonts/f24q3238-action-display/ttf/f24q3238-action-display-action-display-regular-400.ttf') format('ttf');
-  }
+  font-family: 'Action Display';
+  src: url('./assets/Fonts/f24q3238-action-display/otf/f24q3238-action-display-action-display-regular-400.otf') format('otf'),
+    url('./assets/Fonts/f24q3238-action-display/ttf/f24q3238-action-display-action-display-regular-400.ttf') format('ttf');
+}
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('./assets/Fonts/Montserrat/Montserrat-Regular.ttf') format('ttf'),
+  font-family: 'Montserrat';
+  src: url('./assets/Fonts/Montserrat/Montserrat-Regular.ttf') format('ttf'),
     url('./assets/Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
-  }
-
-
-body{
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(231, 255, 255);
 }
 
-a{
-    text-decoration: none;
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(231, 255, 255);
 }
 
-.navbar{
-    display: flex;
-    height: 12vh;
-    align-items: center;
-    width: 100%;
+a {
+  text-decoration: none;
 }
 
-.logo{
-    width: 50%;
-    padding-left: 2%;
+.navbar {
+  display: flex;
+  height: 12vh;
+  align-items: center;
+  width: 100%;
 }
 
-.logo-text{
-    color: #000;
-    font-family: 'Action Display';
+.logo {
+  width: 50%;
+  padding-left: 2%;
 }
 
-.links{
-    position: fixed;
-    display: flex;                                           /*flex*/
-    align-items: center;
-    justify-content: right;
-    width: 100%;
-    padding-right: 50px;
+.logo-text {
+  color: #000;
+  /* font-family: 'Action Display'; */
+  font-family: "Rochester", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.links {
+  position: fixed;
+  display: flex;
+  /*flex*/
+  align-items: center;
+  justify-content: right;
+  width: 100%;
+  padding-right: 50px;
 }
 
 .material-symbols-outlined {
-    color: #000;
-    font-weight: bolder;
-    font-variation-settings:
+  color: #000;
+  font-weight: bolder;
+  font-variation-settings:
     'FILL' 0,
     'wght' 250,
     'GRAD' 0,
     'opsz' 24
 }
 
-.material-symbols-outlined:hover{
-    color: rgb(177, 147, 51);
+.material-symbols-outlined:hover {
+  color: rgb(177, 147, 51);
 }
 
 
 
-.list-element{
-    margin-right: 10px;
+.list-element {
+  margin-right: 10px;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
-li span{
-    list-style: none;
-    margin-right: 10px;
-    font-size: 15px;
+li span {
+  list-style: none;
+  margin-right: 10px;
+  font-size: 15px;
 }
 
-.hover-me:hover{
-    color: rgb(177, 147, 51);
-} 
-
-.Montserrat{
-    color: #000;
-    font-family: 'Montserrat';
+.hover-me:hover {
+  color: rgb(177, 147, 51);
 }
 
-.logo{
-    display: flex;
+.Montserrat {
+  color: #000;
+  font-family: 'Montserrat';
 }
 
-.logo-image{
-    width: 30px;
-    height: 30px;
+.logo {
+  display: flex;
 }
 
-.engineer{
-    padding-top: 4px;
-    padding-left: 5px;
+.logo-image {
+  width: 30px;
+  height: 30px;
+}
+
+.engineer {
+  padding-top: 4px;
+  padding-left: 5px;
 }
 
 
@@ -150,12 +154,13 @@ li span{
   padding: 0.7rem;
 }
 
-.nav-containerrr a:hover{
-    font-weight: bolder;
+.nav-containerrr a:hover {
+  font-weight: bolder;
 }
 
 .nav-containerrr {
-  display: none;                                         /*block*/
+  display: none;
+  /*block*/
   position: relative;
   height: 60px;
   /* width: 1500px; */
@@ -232,22 +237,22 @@ li span{
   font-weight: 500;
 }
 
-.active-link:active ~ input{
+.active-link:active~input {
   appearance: none;
 }
 
-.nav-containerrr input[type="checkbox"]:checked ~ .menu-items {
+.nav-containerrr input[type="checkbox"]:checked~.menu-items {
   transform: translateX(0);
 }
 
-.nav-containerrr input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+.nav-containerrr input[type="checkbox"]:checked~.hamburger-lines .line1 {
   transform: rotate(45deg);
 }
 
-.nav-containerrr input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+.nav-containerrr input[type="checkbox"]:checked~.hamburger-lines .line2 {
   transform: scaleY(0);
 }
 
-.nav-containerrr input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+.nav-containerrr input[type="checkbox"]:checked~.hamburger-lines .line3 {
   transform: rotate(-45deg);
 }

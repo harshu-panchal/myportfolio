@@ -1,4 +1,4 @@
-.Home-container{
+.Home-container {
     width: 70%;
     justify-content: center;
     align-items: center;
@@ -7,52 +7,55 @@
     margin-top: 7%;
 }
 
-.content{
+.content {
     display: grid;
     margin-top: 4%;
 }
 
-.my-image{
+.my-image {
     width: 475px;
     height: 475px;
 }
 
-.logo-and-content{
+.logo-and-content {
     display: flex;
     gap: 4%;
 }
 
-.heading{
-    font-family: 'Action Display';
+.heading {
+    /* font-family: 'Action Display'; */
+    font-family: "Rochester", cursive;
+    font-weight: 400;
+    font-style: normal;
     font-size: 65px;
 }
 
-.sub-heading{
+.sub-heading {
     font-family: 'Segoe UI';
     font-size: 19px;
     font-weight: bold;
     color: black;
 }
 
-.bio{
-    font-family: 'Montserrat','Candara light';
+.bio {
+    font-family: 'Montserrat', 'Candara light';
     font-size: 14px;
     line-height: 25px;
     word-spacing: 3px;
 }
 
-.low-line-height{
+.low-line-height {
     margin-top: 1px;
     line-height: 45px;
 }
 
-.buttons{
+.buttons {
     display: flex;
     margin-top: 30px;
     gap: 5%;
 }
 
-.buttonn{
+.buttonn {
     border: 2px solid rgb(0, 248, 0);
     border-radius: 50%;
     display: grid;
@@ -63,18 +66,18 @@
     padding-left: 10px;
 }
 
-.buttonn:hover{
+.buttonn:hover {
     background-color: white;
 }
 
-.color-yellow{
+.color-yellow {
     background-color: rgb(223, 243, 77);
 }
 
-.color-orange{
+.color-orange {
     background-color: rgb(255, 111, 0);
 }
 
-.color-pink{
+.color-pink {
     background-color: pink;
 }
