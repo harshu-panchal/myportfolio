@@ -1,8 +1,8 @@
 import React from 'react'
 import './Projects.css'
-import legalimg from '/images/legal_doc_generator.png'
-import picflip from '/images/pic_flip_card.png'
-import stdntrec from '/images/student_record_management.png'
+import legalimg from '/legal_doc_generator.png'
+import picflip from '/pic_flip_card.png'
+import stdntrec from '/student_record_management.png'
 
 
 const Projects = () => {
