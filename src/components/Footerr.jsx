@@ -1,8 +1,8 @@
 import React from 'react'
 import './Footerr.css'
-import insta from '/instagram.png'
-import gitlogo from '/github.png'
-import linkedinlogo from '/linkedin.png'
+import insta from '/public/instagram.png'
+import gitlogo from '/public/github.png'
+import linkedinlogo from '/public/linkedin.png'
 
 const Footerr = () => {
     return (
@@ -33,7 +33,9 @@ const Footerr = () => {
 
 
                 <div className="creator-name bio">
-                    <span>© 2024 By Harshvardhan Panchal.</span>
+                    <span>Copyright © 2024 Harshvardhan Panchal all right reserved.</span>
+                    <div></div>
+                    <span>Designed by Harshvardhan Panchal</span>
                 </div>
             </div>
         </>
