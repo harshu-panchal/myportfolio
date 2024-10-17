@@ -103,7 +103,7 @@
 
     .buttonn {
         width: 80px;
-        height: 100px;
+        height: 80px;
     }
 
     .footer-container{
@@ -132,8 +132,8 @@
     }
     .creator-name{
         /* display: none; */
-        width: 75%;
-        font-size: 14px;
+        width: 78%;
+        font-size: 11px;
         padding: 5px;
         padding-left: 5%;
         margin-top: 30%;
