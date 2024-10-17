@@ -175,7 +175,7 @@ li span {
   height: 32px;
   width: 32px;
   top: 20px;
-  left: 140%;
+  left: 148%;
   z-index: 5;
   opacity: 0;
   cursor: pointer;
@@ -188,7 +188,7 @@ li span {
   width: 32px;
   position: absolute;
   top: 17px;
-  left: 140%;
+  left: 148%;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -227,7 +227,7 @@ li span {
   transform: translateY(-500%);
   display: flex;
   flex-direction: column;
-  margin-left: 50%;
+  margin-left: 65%;
   /* margin-right: 0%; */
   padding-left: 10px;
   transition: transform 0.5s ease-in-out;
