@@ -223,11 +223,11 @@ li span {
   padding-top: 10px;
   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
   height: 300px;
-  width: 450px;
+  width: 100%;
   transform: translateY(-500%);
   display: flex;
   flex-direction: column;
-  margin-left: -35%;
+  margin-left: 50%;
   /* margin-right: 0%; */
   padding-left: 10px;
   transition: transform 0.5s ease-in-out;
