@@ -62,14 +62,14 @@
         /* padding-left: 1%; */
         /* padding-right: 15%; */
         margin-top: 15%;
-        padding-left: 5%;
+        padding-left: 2%;
         width: 100%;
         text-align: center;
     }
 
     .my-image {
-        width: 400px;
-        height: 400px;
+        width: 370px;
+        height: 370px;
     }
 
     .heading {
@@ -79,13 +79,14 @@
     }
 
     .sub-heading {
+        padding: 2%;
         font-size: 20px;
         text-align: center;
         line-height: 15px;
-        padding-bottom: 2%;
     }
 
     .bio {
+        padding: 2%;
         font-size: 17px;
         text-align: center;
         line-height: 20px;
