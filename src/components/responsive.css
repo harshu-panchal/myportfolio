@@ -82,12 +82,12 @@
         padding: 2%;
         font-size: 20px;
         text-align: center;
-        line-height: 15px;
+        line-height: 20px;
     }
 
     .bio {
         padding: 2%;
-        font-size: 17px;
+        font-size: 19px;
         text-align: center;
         line-height: 20px;
     }
@@ -95,12 +95,12 @@
     .btn-container {
         text-align: center;
         /* margin-left: 58%; */
-        padding-left: 4.5%;
+        padding-left: 2%;
     }
 
     .buttonn {
         width: 80px;
-        height: 80px;
+        height: 100px;
     }
 
     .footer-container{
