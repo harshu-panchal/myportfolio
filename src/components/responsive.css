@@ -132,9 +132,12 @@
     }
     .creator-name{
         /* display: none; */
+        width: 75%;
         font-size: 14px;
-        margin-top: 25%;
-        padding-bottom: 10%;
+        padding: 5px;
+        padding-left: 5%;
+        margin-top: 30%;
+        padding-bottom: 8%;
         line-height: 30px;
     }
 
