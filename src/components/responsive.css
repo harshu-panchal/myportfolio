@@ -98,12 +98,12 @@
     .btn-container {
         text-align: center;
         /* margin-left: 58%; */
-        padding-left: 0%;
+        padding-left: 1%;
     }
 
     .buttonn {
         width: 80px;
-        height: 80px;
+        height: 90px;
     }
 
     .footer-container{
@@ -135,7 +135,7 @@
         width: 78%;
         font-size: 11px;
         padding: 5px;
-        padding-left: 5%;
+        padding-left: 9%;
         margin-top: 30%;
         padding-bottom: 8%;
         line-height: 30px;
