@@ -1,109 +1,106 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @font-face {
-  font-family: 'Action Display';
-  src: url('./assets/Fonts/f24q3238-action-display/otf/f24q3238-action-display-action-display-regular-400.otf') format('otf'),
-    url('./assets/Fonts/f24q3238-action-display/ttf/f24q3238-action-display-action-display-regular-400.ttf') format('ttf');
-}
+    font-family: 'Action Display';
+    src: url('./assets/Fonts/f24q3238-action-display/otf/f24q3238-action-display-action-display-regular-400.otf') format('otf'),
+         url('./assets/Fonts/f24q3238-action-display/ttf/f24q3238-action-display-action-display-regular-400.ttf') format('ttf');
+  }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('./assets/Fonts/Montserrat/Montserrat-Regular.ttf') format('ttf'),
-    url('./assets/Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
+    font-family: 'Montserrat Thin';
+    src: url('./assets/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('ttf'),
+    url('./assets/Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('woff2');
+  }
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(231, 255, 255);
+    height: 100vh;
 }
 
-
-body {
-  margin: 0px;
-  padding: 0px;
-  background-color: rgb(231, 255, 255);
+a{
+    text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+.navbar{
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    width: 100%;
 }
 
-.navbar {
-  display: flex;
-  height: 12vh;
-  align-items: center;
-  width: 100%;
+.logo{
+    width: 50%;
+    padding-left: 2%;
 }
 
-.logo {
-  width: 50%;
-  padding-left: 2%;
+.logo-text{
+    color: #000;
+    font-family: 'Action Display';
 }
 
-.logo-text {
-  color: #000;
-  /* font-family: 'Action Display'; */
-  font-family: "Rochester", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.links {
-  position: fixed;
-  display: flex;
-  /*flex*/
-  align-items: center;
-  justify-content: right;
-  width: 100%;
-  padding-right: 50px;
+.links{
+    position: fixed;
+    display: flex;                                           /*flex*/
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    padding-right: 50px;
 }
 
 .material-symbols-outlined {
-  color: #000;
-  font-weight: bolder;
-  font-variation-settings:
+    color: #000;
+    font-weight: bolder;
+    font-variation-settings:
     'FILL' 0,
     'wght' 250,
     'GRAD' 0,
     'opsz' 24
 }
 
-.material-symbols-outlined:hover {
-  color: rgb(177, 147, 51);
+.material-symbols-outlined:hover{
+    color: rgb(177, 147, 51);
 }
 
 
 
-.list-element {
-  margin-right: 10px;
+.list-element{
+    margin-right: 10px;
 }
 
-li {
-  list-style: none;
+li{
+    list-style: none;
 }
 
-li span {
-  list-style: none;
-  margin-right: 10px;
-  font-size: 15px;
+li span{
+    list-style: none;
+    margin-right: 10px;
+    font-size: 15px;
 }
 
-.hover-me:hover {
-  color: rgb(177, 147, 51);
+.hover-me:hover{
+    color: rgb(177, 147, 51);
+} 
+
+.Montserrat{
+    color: #000;
+    font-family: 'Montserrat Thin';
 }
 
-.Montserrat {
-  color: #000;
-  font-family: 'Montserrat';
+.logo{
+    display: flex;
 }
 
-.logo {
-  display: flex;
+.logo-image{
+    width: 30px;
+    height: 30px;
 }
 
-.logo-image {
-  width: 30px;
-  height: 30px;
-}
-
-.engineer {
-  padding-top: 4px;
-  padding-left: 5px;
+.engineer{
+    padding-top: 4px;
+    padding-left: 5px;
 }
 
 
@@ -117,7 +114,7 @@ li span {
 
 
 .containerrr {
-  width: 100%;
+  width: 28%;
   /* justify-content: right; */
   /* right: 30px; */
   /* margin-left: 80%; */
@@ -154,17 +151,16 @@ li span {
   padding: 0.7rem;
 }
 
-.nav-containerrr a:hover {
-  font-weight: bolder;
+.nav-containerrr a:hover{
+    font-weight: bolder;
 }
 
 .nav-containerrr {
-  display: none;
-  /*block*/
+  display: none;                                         /*block*/
   position: relative;
   height: 60px;
   /* width: 1500px; */
-  margin-left: 20%;
+  margin-left: 2%;
 }
 
 .nav-containerrr .checkbox {
@@ -173,7 +169,7 @@ li span {
   height: 32px;
   width: 32px;
   top: 20px;
-  left: 950px;
+  left: 130px;
   z-index: 5;
   opacity: 0;
   cursor: pointer;
@@ -186,7 +182,7 @@ li span {
   width: 32px;
   position: absolute;
   top: 17px;
-  left: 950px;
+  left: 130px;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -218,14 +214,14 @@ li span {
 }
 
 .menu-items {
-  padding-top: 120px;
+  padding-top: 10px;
   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-  height: 100vh;
-  width: 1000px;
-  transform: translateY(-150%);
+  height: 275px;
+  width: 180px;
+  transform: translateY(-500%);
   display: flex;
   flex-direction: column;
-  margin-left: -40px;
+  margin-left: -90px;
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
@@ -237,22 +233,22 @@ li span {
   font-weight: 500;
 }
 
-.active-link:active~input {
+.active-link:active ~ input{
   appearance: none;
 }
 
-.nav-containerrr input[type="checkbox"]:checked~.menu-items {
+.nav-containerrr input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
 }
 
-.nav-containerrr input[type="checkbox"]:checked~.hamburger-lines .line1 {
+.nav-containerrr input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
   transform: rotate(45deg);
 }
 
-.nav-containerrr input[type="checkbox"]:checked~.hamburger-lines .line2 {
+.nav-containerrr input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
   transform: scaleY(0);
 }
 
-.nav-containerrr input[type="checkbox"]:checked~.hamburger-lines .line3 {
+.nav-containerrr input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   transform: rotate(-45deg);
 }
