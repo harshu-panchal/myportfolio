@@ -95,7 +95,7 @@
     .btn-container {
         text-align: center;
         /* margin-left: 58%; */
-        padding-left: 6.5%;
+        padding-left: 4.5%;
     }
 
     .buttonn {
@@ -117,7 +117,7 @@
     .footer-line{
         margin-top: 15%;
         margin-bottom: 15%;
-        width: 100%;
+        width: 350px;
         /* padding-left: 50%; */
         height: 0.1px;
     }
