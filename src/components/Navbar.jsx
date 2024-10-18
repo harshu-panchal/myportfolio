@@ -23,14 +23,14 @@ const Navbar = () => {
           <span className='engineer Montserrat'>Engineer</span>
         </div>
 
-        <div class="containerrr nav-containerrr">
-          <input class="checkbox" type="checkbox" name="" id="" />
-          <div class="hamburger-lines">
-            <span class="line line1"></span>
-            <span class="line line2"></span>
-            <span class="line line3"></span>
+        <div className="containerrr nav-containerrr">
+          <input className="checkbox" type="checkbox" name="" id="" />
+          <div className="hamburger-lines">
+            <span className="line line1"></span>
+            <span className="line line2"></span>
+            <span className="line line3"></span>
           </div>
-          <div class="menu-items">
+          <div className="menu-items">
             <NavLink to="/myportfolio/" onClick={uncheck}><li className='-element'><span className="active-link material-symbols-outlined">home</span></li></NavLink>
             <NavLink to="/myportfolio/Resume" onClick={uncheck}><li className=' list-element'><span className="active-link Montserrat hover-me">Resume</span></li></NavLink>
             <NavLink to="/myportfolio/Projects" onClick={uncheck}><li className='list-element'><span className='active-link Montserrat hover-me'>Projects</span></li></NavLink>
