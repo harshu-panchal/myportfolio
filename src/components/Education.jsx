@@ -13,7 +13,8 @@ const Education = () => {
                             Apr 2018 - Mar 2019
                         </div>
                         <div className='contant'>
-                            <div className="exp-head sub-heading">
+                            <div className="exp-head sub-heading inc-width
+                            ">
                                 10th, Kendriya Vidyalaya, Ratlam
                             </div>
                             <div className="exp-info bio">
@@ -26,7 +27,8 @@ const Education = () => {
                             Apr 2020 - Mar 2021
                         </div>
                         <div className='contant'>
-                            <div className="exp-head sub-heading">
+                            <div className="exp-head sub-heading inc-width
+                            ">
                                 12th, Kendriya Vidyalaya, Ratlam
                             </div>
                             <div className="exp-info bio">
@@ -39,7 +41,8 @@ const Education = () => {
                             Nov 2021 - Present
                         </div>
                         <div className='contant'>
-                            <div className="exp-head sub-heading">
+                            <div className="exp-head sub-heading inc-width
+                            ">
                                 B.Tech (CSE), Sage University, Indore
                             </div>
                             <div className="exp-info bio">

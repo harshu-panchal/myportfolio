@@ -35,7 +35,7 @@
     }
 
     .contant{
-        width: 117%;
+        width: 130%;
     }
 
     .year{
@@ -46,7 +46,6 @@
         text-align: left;
         justify-content: left;
         margin-top: -10px;
-
     }
 
     .exp-info{
@@ -79,11 +78,12 @@
         width: 300px;
     }
 
-    .experience-cont .skill-content{
-        width: 9%;
-    }
-
     .exp-cont-heading{
         width: 80%;
+    }
+
+    .inc-width{
+        width: 120%;
+
     }
 }
