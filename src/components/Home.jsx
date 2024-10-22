@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import { NavLink } from 'react-router-dom'
-import myImage from '/my_image.svg'
+import myImage from '/my_image.png'
 
 const Home = () => {
   return (
