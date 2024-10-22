@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './components/responsive.css'
 import './components/Resume_responsive.css'
 import './components/Projects_responsive.css'
+import './components/Contact_responsive.css'
 
 import './App.css'
 

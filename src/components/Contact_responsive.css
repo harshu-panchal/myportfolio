@@ -1,0 +1,36 @@
+@media only screen and (max-width: 679px) {
+
+    .main-container{
+        display: grid;
+        gap: 3%;
+    }
+
+    .row1{
+        display: grid;
+        gap: 0%;
+        padding-left: 10%;
+    }
+
+    .placehldr{
+        text-align: left;
+    }
+
+    input{
+        width: 300px;
+        height: 45px;
+    }
+
+    .big-box{
+        width: 300px;
+        height: 90px;
+    }
+
+    .row2{
+        padding-left: 10%;
+    }
+
+    .submit-btn{
+        width: 300px;
+        margin-left: 10%;
+    }
+}
