@@ -1,0 +1,74 @@
+
+
+
+@media only screen and (max-width: 679px) {
+
+    .resume-heading .word{
+        font-size: 35px;
+    }
+
+    .resume-heading{
+        gap: 22%;
+    }
+
+    .resume-container{
+        /* width: 10%; */
+        padding-left: 4%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .experience-cont{
+        display: grid;
+        gap: 0%;
+    }
+
+    .experience-content{
+        display: grid;
+        /* background-color: blue; */
+    }
+
+    .contant{
+        width: 130%;
+    }
+
+    .year{
+        width: 200px;
+    }
+
+    .exp-head{
+        text-align: left;
+        justify-content: left;
+        margin-top: -10px;
+
+    }
+
+    .exp-info{
+        text-align: left;
+        justify-content: left;
+        margin-top: -4px;
+    }
+
+    .btwn-line{
+        width: 130%;
+        margin-left: 0%;
+        margin-right: 2%;
+    }
+
+
+    /*             SKILLS              */
+    .skills-cont{
+        display: grid;
+        gap: 3%;
+    }
+
+    /*             EDUCATION                */
+    .skill{
+        gap: 0%;
+        margin-left: -4%;
+    }
+    
+    .years{
+        width: 300px;
+    }
+}

@@ -9,7 +9,7 @@ const Education = () => {
                 </div>
                 <div className="skill-content">
                     <div className='skill'>
-                        <div className="year bio">
+                        <div className="years bio">
                             Apr 2018 - Mar 2019
                         </div>
                         <div className='contant'>
@@ -22,7 +22,7 @@ const Education = () => {
                         </div>
                     </div>
                     <div className='skill'>
-                        <div className="year bio">
+                        <div className="years bio">
                             Apr 2020 - Mar 2021
                         </div>
                         <div className='contant'>
@@ -35,7 +35,7 @@ const Education = () => {
                         </div>
                     </div>
                     <div className='skill'>
-                        <div className="year bio">
+                        <div className="years bio">
                             Nov 2021 - Present
                         </div>
                         <div className='contant'>
