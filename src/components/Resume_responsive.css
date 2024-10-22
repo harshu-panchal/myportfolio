@@ -72,9 +72,18 @@
     .skill{
         gap: 0%;
         margin-left: -4%;
+        width: 90%;
     }
     
     .years{
         width: 300px;
+    }
+
+    .experience-cont .skill-content{
+        width: 9%;
+    }
+
+    .exp-cont-heading{
+        width: 80%;
     }
 }
