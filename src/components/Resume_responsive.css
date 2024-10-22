@@ -11,6 +11,12 @@
         gap: 15%;
     }
 
+    .download-btn{
+        width: 175px;
+        height: 35px;
+        padding-top: 15px;
+    }
+
     .resume-container{
         /* width: 10%; */
         padding-left: 4%;
