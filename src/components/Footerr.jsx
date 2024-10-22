@@ -1,8 +1,8 @@
 import React from 'react'
 import './Footerr.css'
-import insta from '/public/instagram.png'
-import gitlogo from '/public/github.png'
-import linkedinlogo from '/public/linkedin.png'
+import insta from '/public/instagram.svg'
+import gitlogo from '/public/github.svg'
+import linkedinlogo from '/public/linkedin.svg'
 
 const Footerr = () => {
     return (
