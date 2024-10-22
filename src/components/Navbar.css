@@ -38,7 +38,10 @@ a {
 
 .logo-text {
   color: #000;
-  font-family: 'Action Display';
+  /* font-family: 'Action Display'; */
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .links {
