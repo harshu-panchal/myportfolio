@@ -7,7 +7,6 @@
     .project-contant{
         width: 100%;
         text-align: left;
-        justify-content: left;
     }
 
     .project-heading{
@@ -16,15 +15,16 @@
 
     .project-desc{
         text-align: left;
+        width: 97%;
     }
 
     .legalAI{
-        width: 400px;
+        width: 375px;
         height: 220px;
     }
 
     .pic-flip-img{
-        padding-left: 12%;
+        padding-left: 17%;
     }
 
 }
