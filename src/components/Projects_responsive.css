@@ -1,0 +1,30 @@
+@media only screen and (max-width: 679px) {
+    .projects-container{
+        display: grid;
+        gap: 2%;
+    }
+
+    .project-contant{
+        width: 100%;
+        text-align: left;
+        justify-content: left;
+    }
+
+    .project-heading{
+        text-align: left;
+    }
+
+    .project-desc{
+        text-align: left;
+    }
+
+    .legalAI{
+        width: 400px;
+        height: 220px;
+    }
+
+    .pic-flip-img{
+        padding-left: 12%;
+    }
+
+}
