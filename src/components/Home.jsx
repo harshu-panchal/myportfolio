@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Home.css'
 import { NavLink } from 'react-router-dom'
 import myImage from '/my_image.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Home = () => {
+  useEffect(()=>{
+    Aos.init();
+  },[])
   return (
     <>
       <div className="Home-container">
@@ -25,9 +30,9 @@ const Home = () => {
             </div>
             <div className="btn-container">
             <div className="buttons">
-              <NavLink to="/myportfolio/Resume"><li className='buttonn color-yellow'><span className='sub-heading'>Resume</span></li></NavLink>
-              <NavLink to="/myportfolio/Projects"><li className='buttonn color-orange'><span className='sub-heading'>Projects</span></li></NavLink>
-              <NavLink to="/myportfolio/Contact"><li className='buttonn color-pink'><span className='sub-heading'>Contact</span></li></NavLink>
+              <NavLink to="/myportfolio/Resume"><li data-aos = 'fade-right' className='buttonn color-yellow'><span className='sub-heading'>Resume</span></li></NavLink>
+              <NavLink to="/myportfolio/Projects"><li data-aos = 'fade-left' className='buttonn color-orange'><span className='sub-heading'>Projects</span></li></NavLink>
+              <NavLink to="/myportfolio/Contact"><li data-aos = 'fade-right' className='buttonn color-pink'><span className='sub-heading'>Contact</span></li></NavLink>
             </div>
             </div>
           </div>
