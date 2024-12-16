@@ -409,12 +409,14 @@
     }
 
     .btn-container {
-        margin-left: 3%;
-        padding-left: 6%;
+        /* margin-left: 25%; */
+        padding-left: 5%;
+        width: 80%;
         display: grid;
     }
 
     .buttons{
+        margin-left: 12%;
         display: grid;
     }
 
