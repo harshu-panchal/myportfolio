@@ -409,7 +409,7 @@
     }
 
     .btn-container {
-        margin-left: 50%;
+        margin-left: 5%;
         padding-left: 11%;
         display: grid;
     }
@@ -439,7 +439,7 @@
 
     .buttonn::after{
         content: "";
-        background-color: #ffe54c;
+        /* background-color: #ffe54c; */
         width: 100%;
         z-index: -1;
         position: absolute;

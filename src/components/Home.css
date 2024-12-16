@@ -66,18 +66,19 @@
     padding-left: 10px;
 }
 
+
 .buttonn:hover {
     background-color: white;
 }
 
-.color-yellow {
+.color-yellow::after {
     background-color: rgb(223, 243, 77);
 }
 
-.color-orange {
+.color-orange::after {
     background-color: rgb(255, 111, 0);
 }
 
-.color-pink {
+.color-pink::after {
     background-color: pink;
 }
