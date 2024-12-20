@@ -33,7 +33,7 @@ const Footerr = () => {
 
 
                 <div className="creator-name bio">
-                    <span>Copyright © 2024 Harshvardhan Panchal all right reserved.</span>
+                    <span>Copyright © 2024 Harshvardhan Panchal All Rights Reserved.</span>
                     <div></div>
                     <span>Designed by Harshvardhan Panchal</span>
                 </div>
