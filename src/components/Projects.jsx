@@ -3,6 +3,7 @@ import './Projects.css'
 import legalimg from '/legal_doc_generator.png'
 import picflip from '/pic_flip_card.png'
 import stdntrec from '/student_record_management.png'
+import SRMS from '/Project files/_software_.zip'
 
 
 const Projects = () => {
@@ -34,7 +35,7 @@ const Projects = () => {
               <span>Student Record Manager</span>
             </div>
             <div className="project-desc bio">
-              <span>Developed a Student Record Management System, a data-driven system for efficient storage and management of student records using data science fundamentals. Enabled streamlined data organization, retrieval, andanalysis to improve decision-making and record-keeping.</span>
+              <span>Developed a Student Record Management System, a data-driven system for efficient storage and management of student records using data science fundamentals. Enabled streamlined data organization, retrieval, andanalysis to improve decision-making and record-keeping.<a href={SRMS} download={true}><p>Download Project</p></a></span>
             </div>
           </div>
           <div className="project-photo">
